@@ -135,6 +135,28 @@ namespace 計算機
                 txtNumber.Text = "";
             txtNumber.Text = txtNumber.Text + _number;
         }
+
+        private void btnBackspace_Click(object sender, EventArgs e)
+        {
+            if(txtNumber.Text.Length > 1)
+            {
+                txtNumber.Text = txtNumber.Text.Substring(0, txtNumber.Text.Length - 1);
+            }
+            else
+            {
+                txtNumber.Text = "0";
+            }
+        }
+
+        private void btnPercentage_Click(object sender, EventArgs e)
+        {
+            if (float.TryParse(txtNumber.Text, out float number))
+            {
+                number = number / 100;
+                txtNumber.Text = number.ToString();
+            }
+        }
+
         private void Select_Operator(int _operator)
         {
             firstNumber = Convert.ToSingle(txtNumber.Text); 
