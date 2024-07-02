@@ -66,6 +66,7 @@
             this.btnClear.TabIndex = 1;
             this.btnClear.Text = "AC";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnSeven
             // 
@@ -109,6 +110,7 @@
             this.btnDivide.TabIndex = 5;
             this.btnDivide.Text = "/";
             this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // btnFour
             // 
@@ -152,6 +154,7 @@
             this.btnPlus.TabIndex = 9;
             this.btnPlus.Text = "*";
             this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnMinus
             // 
@@ -162,6 +165,7 @@
             this.btnMinus.TabIndex = 10;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnAdd
             // 
@@ -172,6 +176,7 @@
             this.btnAdd.TabIndex = 11;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnThree
             // 
@@ -215,6 +220,7 @@
             this.btnDot.TabIndex = 15;
             this.btnDot.Text = ".";
             this.btnDot.UseVisualStyleBackColor = true;
+            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
             // 
             // btnZero
             // 
@@ -236,6 +242,7 @@
             this.btnEqual.TabIndex = 17;
             this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = true;
+            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
             // Form1
             // 
